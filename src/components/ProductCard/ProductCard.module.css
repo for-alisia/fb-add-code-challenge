@@ -1,0 +1,38 @@
+.productCardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.productTitle {
+  margin: 0;
+  color: var(--primaryAccent);
+  font-weight: 400;
+  transition: all ease 0.3s;
+}
+
+.productTitle:hover {
+  color: var(--secondaryAccent);
+}
+
+.productDetails {
+  margin: 0;
+  padding: 0;
+}
+
+.productImage {
+  height: 15rem;
+  object-fit: cover;
+  background-color: var(--primaryLight);
+}
+
+.productDescription {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-clamp: 3;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-align: left;
+}

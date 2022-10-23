@@ -1,0 +1,10 @@
+.editAddHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+
+.editAddHeader a {
+  margin-left: 1rem;
+}

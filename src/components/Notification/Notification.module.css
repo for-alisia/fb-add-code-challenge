@@ -1,0 +1,31 @@
+.notificationWrapper {
+  position: absolute;
+  bottom: 3rem;
+  right: 3rem;
+  z-index: 2;
+}
+
+.notificationItem {
+  margin-bottom: 1rem;
+  padding: 1rem 3rem 1rem 2rem;
+  position: relative;
+}
+
+:global(.success) {
+  background-color: var(--primaryConfirm);
+}
+
+:global(.error) {
+  background-color: var(--primaryDanger);
+}
+
+.closeBtn {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  color: var(--primaryLight);
+  cursor: pointer;
+}

@@ -1,13 +1,49 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@400;500&display=swap');
+
+:root {
+  --primaryAccent: #f7ac3b;
+  --secondaryAccent: #f38e2f;
+  --primaryLight: #f9f9f9;
+  --primaryDark: #010100;
+  --secondaryLight: #f0f2f5;
+  --secondaryDark: #65676b;
+  --primaryNeutral: #dddfe2;
+  --primaryDanger: #ef465a;
+  --secondaryDanger: #ba3242;
+  --primaryConfirm: #3f8159;
+  --secondaryConfirm: #264e36;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--primaryDark);
+  color: var(--primaryLight);
+}
+
+a {
+  color: var(--primaryAccent);
+  text-decoration: none;
+  transition: color ease 0.3s;
+}
+
+a:hover {
+  color: var(--secondaryAccent);
+}
+
+img {
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }

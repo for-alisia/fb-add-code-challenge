@@ -1,0 +1,22 @@
+.productList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.productItem {
+  min-width: 300px;
+  width: 30%;
+}
+
+.productHeader {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  text-align: center;
+  padding-inline: 2rem;
+  margin-bottom: 2rem;
+}

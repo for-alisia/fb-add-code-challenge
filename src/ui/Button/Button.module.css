@@ -1,0 +1,30 @@
+.button {
+  padding: 0.5rem 1rem;
+  color: var(--primaryLight);
+  background-color: var(--secondaryAccent);
+  cursor: pointer;
+  border: none;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  transition: all ease 0.3s;
+}
+
+:global(button.danger) {
+  background-color: var(--secondaryDanger);
+}
+
+:global(button.confirm) {
+  background-color: var(--secondaryConfirm);
+}
+
+:global(button.confirm:hover) {
+  background-color: var(--primaryConfirm);
+}
+
+.button:hover {
+  background-color: var(--primaryAccent);
+}
+
+:global(button.danger:hover) {
+  background-color: var(--primaryDanger);
+}

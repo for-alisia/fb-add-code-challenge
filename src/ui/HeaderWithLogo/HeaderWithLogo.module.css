@@ -1,0 +1,36 @@
+.headerWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  color: var(--primaryDark);
+  padding: 1rem 0.8rem 0 0.8rem;
+}
+
+.logo {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 1rem;
+}
+
+.logo img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.companyDetails {
+  font-size: 0.8rem;
+  flex-grow: 1;
+}
+
+.sponsoredText {
+  display: flex;
+  align-items: center;
+  margin-top: 0.6rem;
+  color: var(--secondaryDark);
+}
+
+.sponsoredText span {
+  margin-right: 0.3rem;
+}

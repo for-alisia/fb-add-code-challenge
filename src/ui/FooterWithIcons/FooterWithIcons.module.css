@@ -1,0 +1,26 @@
+.footerWrapper {
+  border-top: 1px solid var(--primaryNeutral);
+  padding: 1rem 3rem;
+}
+
+.iconsList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iconsList li {
+  display: flex;
+  align-items: center;
+  color: var(--secondaryDark);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.iconsList li span {
+  margin-left: 0.5rem;
+}
+
+.iconsList li svg {
+  width: 16px;
+}

@@ -1,0 +1,31 @@
+.inputWrapper {
+  position: relative;
+  margin-block: 0.5rem;
+  margin-inline: 1rem;
+}
+
+.inputWrapper input {
+  border: 1px solid var(--secondaryDark);
+  width: 100%;
+  background-color: transparent;
+  padding: 0.2rem 0.5rem;
+}
+
+.inputWrapper input:focus {
+  outline: none;
+  border: 1px solid var(--primaryConfirm);
+}
+
+:global(.errorInput input) {
+  border: 1px solid var(--primaryDanger);
+}
+
+.errorWarning {
+  color: var(--secondaryDanger);
+  font-size: 0.8rem;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  padding-inline: 0.5rem;
+}

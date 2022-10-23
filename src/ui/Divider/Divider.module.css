@@ -1,0 +1,4 @@
+.divider {
+  color: var(--primaryAccent);
+  padding-inline: 1rem;
+}

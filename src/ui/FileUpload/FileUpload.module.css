@@ -1,0 +1,21 @@
+.input {
+  display: none;
+}
+
+.uploadBtn {
+  background-color: transparent;
+  border: none;
+  width: 4rem;
+  height: 4rem;
+  color: var(--primaryAccent);
+  transition: color ease 0.3s;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.uploadBtn:hover {
+  color: var(--secondaryAccent);
+}
